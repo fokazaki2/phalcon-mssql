@@ -12,7 +12,7 @@ A Phalcon PHP Framework MSSQL pdo db adapter.
 1. copy "test/app/library/db" folder to your library folder  
 
 2. Add the namespace to "folder path" setting  
-    --// Register some namespaces
+    - // Register some namespaces
     --array(
     --	"Twm\Db\Adapter\Pdo" => "library/db/adapter/",
     --	"Twm\Db\Dialect"     => "library/db/dialect/"

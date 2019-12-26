@@ -12,16 +12,16 @@ A Phalcon PHP Framework MSSQL pdo db adapter.
 1. copy "test/app/library/db" folder to your library folder  
 
 2. Add the namespace to "folder path" setting  
-  --// Register some namespaces
-  --array(
-  --	"Twm\Db\Adapter\Pdo" => "library/db/adapter/",
-  --	"Twm\Db\Dialect"     => "library/db/dialect/"
-  --);
+    --// Register some namespaces
+    --array(
+    --	"Twm\Db\Adapter\Pdo" => "library/db/adapter/",
+    --	"Twm\Db\Dialect"     => "library/db/dialect/"
+    --);
 
 3. Change the following :  
-  --$descriptor['pdoType']}:host={$descriptor['host']};dbname={$descriptor['dbname']}
+    --$descriptor['pdoType']}:host={$descriptor['host']};dbname={$descriptor['dbname']}
 to :
-  --"{$descriptor['pdoType']}:server={$descriptor['host']};database={$descriptor['dbname']}"
+    --"{$descriptor['pdoType']}:server={$descriptor['host']};database={$descriptor['dbname']}"
 
 Also you need to make sure 'sqlsrv' is set for $config->database->pdoType. 
 

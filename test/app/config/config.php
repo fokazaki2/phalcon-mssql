@@ -3,11 +3,11 @@
 return new \Phalcon\Config(array(
 	'database' => array(
 		'adapter'     => 'Twm\Db\Adapter\Pdo\Mssql',		
-		'host'		=> 'McDev',
-		'username'	=> 'apnewmc',
-		'password'	=> 'Cm!2212@12',
-		'dbname'	=> 'CCCMCDEV1',
-		'pdoType'       => 'dblib',
+		'host'		=> '',
+		'username'	=> '',
+		'password'	=> '',
+		'dbname'	=> '',
+		'pdoType'       => 'sqlsrv',
 		'dialectClass'	=> 'Twm\Db\Dialect\Mssql'	
 	),
 	'application' => array(
